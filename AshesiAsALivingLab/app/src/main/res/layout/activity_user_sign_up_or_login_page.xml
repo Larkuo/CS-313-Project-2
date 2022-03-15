@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userSignUpOrLoginPage">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.0"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="130dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline22"
+        app:srcCompat="@drawable/person_silhouette" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline22"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ashesi" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline21"
+        app:srcCompat="@drawable/recycle_icon" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/userPageText"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#4CAF50"
+        android:onClick="onClickLoginButton"
+        android:text="@string/loginText"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/orText"
+        android:textColor="#112597"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#4CAF50"
+        android:onClick="onClickSignUpButton"
+        android:text="@string/signUp"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

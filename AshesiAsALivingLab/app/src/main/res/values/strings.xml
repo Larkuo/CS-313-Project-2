@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ashesi University</string>
+    <string name="welcomeButton">WELCOME</string>
+    <string name="ashesiAsALivingLab">RePsyche</string>
+    <string name="theRecyclingProject">THE ASHESI RECYCLING PROJECT</string>
+    <string name="groupText">WELCOME TO THE GROUP PAGE</string>
+    <string name="selectGroupText">Please Select a Group and Proceed</string>
+    <string name="userText">USER</string>
+    <string name="zoomlionText">ZOOMLION GH</string>
+    <string name="stakeHolderText">BUSINESS ON CAMPUS</string>
+    <string name="businessLoginText">BUSINESS LOGIN PAGE</string>
+    <string name="nameText">NAME</string>
+    <string name="pinText">PIN</string>
+    <string name="businessID">ID</string>
+    <string name="businessNameText">NAME</string>
+    <string name="loginText">LOGIN</string>
+    <string name="signUpText">SIGN UP</string>
+    <string name="zoomLionGh">ZOOMLION GHANA</string>
+    <string name="adminPage">ADMIN LOGIN PAGE</string>
+    <string name="userPageText">USER PAGE</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="orText">OR</string>
+    <string name="emailText">EMAIL</string>
+    <string name="passwordText">PASSWORD</string>
+    <string name="confirmPasswordText">CONFIRM PASSWORD</string>
+    <string name="loginPageText">LOGIN PAGE</string>
+</resources>

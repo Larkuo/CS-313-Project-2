@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273476014746",
+    "firebase_url": "https://ashesi-as-a-living-lab.firebaseio.com",
+    "project_id": "ashesi-as-a-living-lab",
+    "storage_bucket": "ashesi-as-a-living-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273476014746:android:e4e360f0b9fe8b2e",
+        "android_client_info": {
+          "package_name": "com.example.ashesiasalivinglab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273476014746-lf6o36nc9187kj7mf1lamr53mdgtiv5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashesiasalivinglab",
+            "certificate_hash": "feb1664b73685c39c8d581a38922b1de1bc955ee"
+          }
+        },
+        {
+          "client_id": "273476014746-krb4a7pveo9e8h4poconjgdpusjq3jkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoZHmjn2jzZdizto87gJSYfyv-tiTRJgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273476014746-krb4a7pveo9e8h4poconjgdpusjq3jkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
